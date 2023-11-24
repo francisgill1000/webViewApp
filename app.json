@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "webViewApp",
+    "slug": "webViewApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jennifergill5656.webViewApp"
+    },
+    "web": {
+      "favicon": "./assets/icons.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df00ffb2-932a-4a31-9ac8-317de07573dd"
+      }
+    }
+  }
+}
